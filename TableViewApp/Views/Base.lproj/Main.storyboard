@@ -11,7 +11,7 @@
         <!--Category-->
         <scene sceneID="Atn-uz-NjC">
             <objects>
-                <tableViewController id="l3J-Iz-317" customClass="CategoryViewProduct" sceneMemberID="viewController">
+                <tableViewController id="l3J-Iz-317" customClass="CategoryViewController" customModule="TableViewApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="wqu-1f-zFG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,7 +20,7 @@
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" id="M2i-uR-6xe">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M2i-uR-6xe" id="6dC-7G-dCb">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M2i-uR-6xe" id="6dC-7G-dCb" customClass="C">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
@@ -158,6 +158,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VJa-aJ-7GW"/>
+                    <connections>
+                        <outlet property="productCcal" destination="5VY-Lr-iyL" id="WvS-ej-9YU"/>
+                        <outlet property="productCreatedAt" destination="LMk-qI-rM0" id="mac-Hf-VwW"/>
+                        <outlet property="productDate" destination="gYh-pm-Q8K" id="ieO-mp-Kuf"/>
+                        <outlet property="productImage" destination="nWj-fr-ZwK" id="ipM-Iw-zZy"/>
+                        <outlet property="productName" destination="4t3-5S-O9T" id="m14-ns-T5c"/>
+                        <outlet property="productUpdatedAt" destination="pOd-MH-eJ0" id="8YZ-xN-fd5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IQg-4O-k2d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

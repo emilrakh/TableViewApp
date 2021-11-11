@@ -1,0 +1,15 @@
+//
+//  CategoryModel.swift
+//  TableViewApp
+//
+//  Created by Emil Rakhmangulov on 11.11.2021.
+//
+
+import Foundation
+
+struct CategoryModel {
+    let id: Int
+    let name: String
+    let unit: String
+    let count: Int
+}
