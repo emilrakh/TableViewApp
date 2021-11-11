@@ -69,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				8B86559F273D83AC0007A74E /* TableViewApp */,
+				8B31D5BB273D97E100C4E4EF /* README */,
 				8B86559E273D83AC0007A74E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,7 +93,6 @@
 				8B8655A9273D83B00007A74E /* Assets.xcassets */,
 				8B8655AB273D83B00007A74E /* LaunchScreen.storyboard */,
 				8B8655AE273D83B00007A74E /* Info.plist */,
-				8B31D5BB273D97E100C4E4EF /* README */,
 			);
 			path = TableViewApp;
 			sourceTree = "<group>";
